@@ -1,6 +1,8 @@
+# %% Imports
 import random
 
 
+# %% DEfinir funcion
 def adivinar(att):
     usadas = []
     intento = []
@@ -28,6 +30,7 @@ def adivinar(att):
     print(intento)
 
 
+# %% Resto del codigo
 palabras = [
     "caballo",
     "amigo",
